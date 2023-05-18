@@ -9,12 +9,12 @@
 //console.log(document.body);
 //console.log(document.querySelectorAll);
 
-var headerTitle =document.getElementById('header-title');
+//var headerTitle =document.getElementById('header-title');
 //var header =document.getElementById('main-header');
 //console.log(headerTitle);
-headerTitle.style.borderBottom ='solid 3px #000';
-var headerTitle =document.getElementById('items');
-items.style.color="green";
+//headerTitle.style.borderBottom ='solid 3px #000';
+//var headerTitle =document.getElementById('items');
+//items.style.color="green";
 
 //get element by class name//
 //var items =document.getElementsByClassName('list-group-item');
