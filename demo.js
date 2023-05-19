@@ -53,7 +53,20 @@
 
 
 //editing by getelement by class name 
-var items =document.getElementsByClassName('list-group-item');
-for(var i=0;i<items.length;i++){
-      items[i].style.fontWeight='bold';
-  } 
+// var items =document.getElementsByClassName('list-group-item');
+// for(var i=0;i<items.length;i++){
+//       items[i].style.fontWeight='bold';
+//   } 
+
+// query selector//
+var header= document.querySelector('#main-header');
+header.style.borderBottom='solid 4px #ccc';
+
+var input =document.querySelector('input');
+input.value ='Hello world';
+
+var submit =document.querySelector('input[type="submit"]');
+submit.value="SEND"
+
+var item =document.querySelector('.list-group-item');
+item.style.color='red';
