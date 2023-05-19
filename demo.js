@@ -26,14 +26,25 @@
 
 
 //get element by class name//
-var items =document.getElementsByClassName('list-group-item');
-items[2].style.backgroundColor ='green';
+//var items =document.getElementsByClassName('list-group-item');
+//items[2].style.backgroundColor ='green';
 
-for(var i=0;i<items.length;i++){
-    items[i].style.fontWeight='bold';
-}
+//for(var i=0;i<items.length;i++){
+  //  items[i].style.fontWeight='bold';
+//}
 
 //console.log(items);
 //console.log(items[1]);
 //items[1].textContent ='Hello 2';
 //items[2].style.backgroundColor ='green';
+
+
+// get elements by tagname
+var li =document.getElementsByTagName('li');
+console.log(li);
+console.log(li[0]);
+li[1].textContent='Hello 2';
+li[1].style.fontWeight='bold';
+li[1].style.backgroungColor='yellow';
+
+for(var i)
