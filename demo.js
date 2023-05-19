@@ -70,3 +70,6 @@ submit.value="SEND"
 
 var item =document.querySelector('.list-group-item');
 item.style.color='red';
+
+var lastItem =document.querySelector('.list-group-item:last-child');
+lastItem.style.color='blue';
