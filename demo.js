@@ -106,8 +106,8 @@
 //Traversing the DOM
 
 var itemList =document.querySelector('#items');
-// //parent Node
-console.log(itemList.parentNode);
+// //parent element
+//console.log(itemList.parent);
 //itemList.parentElement.style.backgroundColor='green';
 //console.log(itemList.parentElement.parentElement.parentElement);
 
@@ -133,4 +133,7 @@ console.log(itemList.parentNode);
 // console.log(itemList.lastElementChild);
 // itemList.lastElementChild.textContent="Hello last";
 
+
+//nextsibling
+console.log(itemList.nextSibling);
 
