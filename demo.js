@@ -105,9 +105,9 @@
 
 //Traversing the DOM
 
-var itemList =document.querySelector('#items');
-//parent Node
-console.log(itemList.parentNode);
-itemList.parentNode.style.backgroundColor='green';
-console.log(itemList.parentNode.parentNode.parentNode);
+ var itemList =document.querySelector('#items');
+// //parent Node
+console.log(itemList.parentElement);
+itemList.parentElement.style.backgroundColor='green';
+console.log(itemList.parentElement.parentElement.parentElement);
 
