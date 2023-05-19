@@ -144,5 +144,28 @@ var itemList =document.querySelector('#items');
 //console.log(itemList.previousSibling);
 
 //previousElementsibling
-console.log(itemList.previousElementSibling);
-itemList.previousElementSibling.style.color='green';
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.style.color='green';
+
+//createElement
+
+//create  a div
+
+var newDiv =document.createElement('div');
+
+//class name
+newDiv.className='hello';
+
+//add id
+newDiv.id='hello';
+
+//add attr
+newDiv.setAttribute('title','hello div');
+
+//create text node
+var newDivText = document.createTextNode('Hello world');
+
+//add text to div
+//newDiv.appendChild(newDivText);
+
+console.log(newDivText)
