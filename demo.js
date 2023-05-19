@@ -108,5 +108,6 @@
 var itemList =document.querySelector('#items');
 //parent Node
 console.log(itemList.parentNode);
-
+itemList.parentNode.style.backgroundColor='green';
+console.log(itemList.parentNode.parentNode.parentNode);
 
