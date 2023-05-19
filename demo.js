@@ -105,7 +105,12 @@
 
 //Traversing the DOM
 
-var itemList =document.querySelector('#items');
+
+
+
+
+
+// var itemList =document.querySelector('#items');
 // //parent element
 //console.log(itemList.parent);
 //itemList.parentElement.style.backgroundColor='green';
@@ -151,7 +156,7 @@ var itemList =document.querySelector('#items');
 
 //create  a div
 
-var newDiv =document.createElement('div');
+// var newDiv =document.createElement('div');
 
 //class name
 newDiv.className='hello';
@@ -166,6 +171,11 @@ newDiv.setAttribute('title','hello div');
 var newDivText = document.createTextNode('Hello world');
 
 //add text to div
-//newDiv.appendChild(newDivText);
+newDiv.appendChild(newDivText);
 
-console.log(newDivText)
+var container=document.querySelector('header.container');
+var h1=document.querySelector('header h1');
+
+//console.log(newDivText)
+
+container.insertBefore(newDiv,h1);
