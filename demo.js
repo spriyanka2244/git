@@ -92,8 +92,21 @@
 //      odd[i].style.backgroundColor="green";
 
 //  }
-var secondItem = document.querySelectorAll('.list-group-item');
+// var secondItem = document.querySelectorAll('.list-group-item');
 
-secondItem[1].style.backgroundColor = "green"; 
+// secondItem[1].style.backgroundColor = "green"; 
+
+
+
+
+
+
+
+
+//Traversing the DOM
+
+var itemList =document.querySelector('#items');
+//parent Node
+console.log(itemList.parentNode);
 
 
