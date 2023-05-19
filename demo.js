@@ -27,6 +27,10 @@
 
 //get element by class name//
 var items =document.getElementsByClassName('list-group-item');
-console.log(items);
-console.log(items[1]);
-items[1].textContent ='Hello 2';
+items[2].style.backgroundColor ='green';
+
+//console.log(items);
+//console.log(items[1]);
+//items[1].textContent ='Hello 2';
+//items.getElementsByClassName.fontWeight='bold';
+//items[2].style.backgroundColor ='green';
