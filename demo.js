@@ -93,5 +93,7 @@
 
 // }
 
-var item =document.querySelector('.list-group-item:nth-child(2)');
- item.style.color='green';
+var third =document.querySelector('.list-group-item:nth-child(3)');
+ third.style.display='none';
+
+
