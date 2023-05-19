@@ -122,7 +122,15 @@ var itemList =document.querySelector('#items');
 
 
 //FirstChild
-console.log(itemList.firstChild);
-//firstElement Child
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent="Hello 1";
+// console.log(itemList.firstChild);
+// //firstElement Child
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent="Hello 1";
+
+//LastChild
+console.log(itemList.lastChild);
+//lastElement Child
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent="Hello last";
+
+
