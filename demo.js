@@ -40,13 +40,20 @@
 
 
 // get elements by tagname
-var li =document.getElementsByTagName('li');
-console.log(li);
-console.log(li[0]);
-li[1].textContent='Hello 5';
-li[1].style.fontWeight='bold';
-li[1].style.backgroundColor='red';
+// var li =document.getElementsByTagName('li');
+// console.log(li);
+// console.log(li[0]);
+// li[1].textContent='Hello 5';
+// li[1].style.fontWeight='bold';
+// li[1].style.backgroundColor='red';
 
-for(var i=0;i<li.length;i++){
-    li[i].style.backgroundColor="yellow";
-}
+// for(var i=0;i<li.length;i++){
+//     li[i].style.backgroundColor="yellow";
+// }
+
+
+//editing by getelement by class name 
+var items =document.getElementsByClassName('list-group-item');
+for(var i=0;i<items.length;i++){
+      items[i].style.fontWeight='bold';
+  } 
