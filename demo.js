@@ -107,7 +107,7 @@
 
 var itemList =document.querySelector('#items');
 // //parent Node
-//console.log(itemList.parentElement);
+console.log(itemList.parentNode);
 //itemList.parentElement.style.backgroundColor='green';
 //console.log(itemList.parentElement.parentElement.parentElement);
 
@@ -128,9 +128,9 @@ var itemList =document.querySelector('#items');
 // itemList.firstElementChild.textContent="Hello 1";
 
 //LastChild
-console.log(itemList.lastChild);
-//lastElement Child
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent="Hello last";
+// console.log(itemList.lastChild);
+// //lastElement Child
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent="Hello last";
 
 
