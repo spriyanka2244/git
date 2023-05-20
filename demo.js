@@ -159,15 +159,20 @@
 
 
 // setAttribute error
-var newDiv =document.createElement('div');
+// var newDiv =document.createElement('div');
 
-newDiv.className='hello';
-newDiv.id='hello1';
-newDiv.setAttribute('title','hello div');
-console.log(newDiv);
+// newDiv.className='hello';
+// newDiv.id='hello1';
+// newDiv.setAttribute('title','hello div');
+// console.log(newDiv);
 
 
 // createtextnode
+var newDivText = document.createTextNode('Hello world');
+console.log(newDivText);
+
+
+
 // appendchild
 // createchild
 
