@@ -108,17 +108,27 @@
 
 //parentElement
 var itemList=document.querySelector('#items');
-console.log(itemList.parent);
-itemList.parentElement.style.backgroundColor='blue';
-console.log(itemList.parentElement.parentElement.parentElement);
-
-
-
-
-
-
+// console.log(itemList.parent);
+// itemList.parentElement.style.backgroundColor='blue';
+// console.log(itemList.parentElement.parentElement.parentElement);
 
 // lastelementchild
+
+console.log(itemList.lastElementChild)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // lastchild
 // createchild
 // firstelementchild
@@ -183,23 +193,23 @@ console.log(itemList.parentElement.parentElement.parentElement);
 // var newDiv =document.createElement('div');
 
 //class name
-newDiv.className='hello';
+// newDiv.className='hello';
 
-//add id
-newDiv.id='hello';
+// //add id
+// newDiv.id='hello';
 
-//add attr
-newDiv.setAttribute('title','hello div');
+// //add attr
+// newDiv.setAttribute('title','hello div');
 
-//create text node
-var newDivText = document.createTextNode('Hello world');
+// //create text node
+// var newDivText = document.createTextNode('Hello world');
 
-//add text to div
-newDiv.appendChild(newDivText);
+// //add text to div
+// newDiv.appendChild(newDivText);
 
-var container=document.querySelector('header.container');
-var h1=document.querySelector('header h1');
+// var container=document.querySelector('header.container');
+// var h1=document.querySelector('header h1');
 
-//console.log(newDivText)
+// //console.log(newDivText)
 
-container.insertBefore(newDiv,h1);
+// container.insertBefore(newDiv,h1);
