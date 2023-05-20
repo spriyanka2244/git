@@ -106,7 +106,31 @@
 //Traversing the DOM
 
 
+//parentElement
+var itemList=document.querySelector('#items');
+console.log(itemList.parent);
+itemList.parentElement.style.backgroundColor='blue';
+console.log(itemList.parentElement.parentElement.parentElement);
 
+
+
+
+
+
+
+// lastelementchild
+// lastchild
+// createchild
+// firstelementchild
+// firstchild
+// nextsibling
+// nextelementsibling
+// previoussibling
+// previouselementsibling
+// createelement
+// setAttribute
+// createtesxtnode
+// appendchild
 
 
 
