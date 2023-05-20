@@ -136,13 +136,17 @@
 
 
 // nextElementsibling
-var itemList=document.querySelector('#items');
-console.log(itemList.nextElementSibling);
-
-
+// var itemList=document.querySelector('#items');
+// console.log(itemList.nextElementSibling);
 
 
 // previoussibling
+var itemList=document.querySelector('#items');
+console.log(itemList.previousSibling);
+
+
+
+
 // previouselementsibling
 // createelement
 // setAttribute
