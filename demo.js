@@ -121,17 +121,16 @@
 // console.log(itemList.lastChild);
 
 // firstelementchild
-var itemList=document.querySelector('#items');
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent="Hello 1";
-
-
-
-
-
-
+// var itemList=document.querySelector('#items');
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent="Hello 1";
 
 // firstchild
+var itemList=document.querySelector('#items');
+console.log(itemList.firstChild);
+
+
+
 // nextsibling
 // nextelementsibling
 // previoussibling
