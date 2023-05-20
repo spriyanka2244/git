@@ -135,9 +135,9 @@
 // console.log(itemList.nextSibling);
 
 
-// nextelementsibling
+// nextElementsibling
 var itemList=document.querySelector('#items');
-console.log(itemList.nextelementSibling);
+console.log(itemList.nextElementSibling);
 
 
 
