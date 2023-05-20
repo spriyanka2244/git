@@ -107,29 +107,25 @@
 
 
 //parentElement
-var itemList=document.querySelector('#items');
+//var itemList=document.querySelector('#items');
 // console.log(itemList.parent);
 // itemList.parentElement.style.backgroundColor='blue';
 // console.log(itemList.parentElement.parentElement.parentElement);
 
 // lastelementchild
-
-console.log(itemList.lastElementChild)
-
-
-
-
-
-
-
-
-
-
-
-
-
+//var itemList=document.querySelector('#items');
+//console.log(itemList.lastElementChild)
 
 // lastchild
+var itemList=document.querySelector('#items');
+console.log(itemList.lastChild);
+
+
+
+
+
+
+
 // createchild
 // firstelementchild
 // firstchild
