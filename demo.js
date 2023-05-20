@@ -168,12 +168,26 @@
 
 
 // createtextnode
-var newDivText = document.createTextNode('Hello world');
-console.log(newDivText);
-
+// var newDivText = document.createTextNode('Hello world');
+// console.log(newDivText);
 
 
 // appendchild
+
+var newDiv =document.createElement('div');
+
+newDiv.className='hello';
+newDiv.id='hello1';
+newDiv.setAttribute('title','hello div');
+
+var newDivText = document.createTextNode('Hello world');
+newDiv.appendChild(newDivText);
+
+console.log(newDiv);
+
+
+
+
 // createchild
 
 
