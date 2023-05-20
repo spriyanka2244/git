@@ -131,13 +131,17 @@
 
 
 // nextsibling
-var itemList=document.querySelector('#items');
-console.log(itemList.nextSibling);
-
-
+// var itemList=document.querySelector('#items');
+// console.log(itemList.nextSibling);
 
 
 // nextelementsibling
+var itemList=document.querySelector('#items');
+console.log(itemList.nextelementSibling);
+
+
+
+
 // previoussibling
 // previouselementsibling
 // createelement
