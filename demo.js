@@ -154,16 +154,19 @@
 // createElement
 //create a div
 
-var newDiv = document.createElement('div');
-console.log(newDiv)
+//var newDiv = document.createElement('div');
+//console.log(newDiv);
 
 
+// setAttribute error
+var newDiv =document.createElement('div');
+
+newDiv.className='hello';
+newDiv.id='hello1';
+newDiv.setAttribute('title','hello div');
+console.log(newDiv);
 
 
-
-
-
-// setAttribute
 // createtextnode
 // appendchild
 // createchild
