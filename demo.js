@@ -117,17 +117,20 @@
 //console.log(itemList.lastElementChild)
 
 // lastchild
-var itemList=document.querySelector('#items');
-console.log(itemList.lastChild);
+// var itemList=document.querySelector('#items');
+// console.log(itemList.lastChild);
 
-
-
-
-
-
-
-// createchild
 // firstelementchild
+var itemList=document.querySelector('#items');
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent="Hello 1";
+
+
+
+
+
+
+
 // firstchild
 // nextsibling
 // nextelementsibling
@@ -135,9 +138,9 @@ console.log(itemList.lastChild);
 // previouselementsibling
 // createelement
 // setAttribute
-// createtesxtnode
+// createtextnode
 // appendchild
-
+// createchild
 
 
 // var itemList =document.querySelector('#items');
