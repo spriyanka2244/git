@@ -201,23 +201,23 @@ newDiv.setAttribute('title','hello div');
 var newDivText = document.createTextNode('Hello world');
 newDiv.appendChild(newDivText);
 
-var container = document.querySelector('header .container');
-var h1 = document.querySelector('header h1');
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
 
-console.log(newDiv);
+// console.log(newDiv);
 
-container.insertBefore(newDiv,h1);
+// container.insertBefore(newDiv,h1);
 
 
 
 
 
 //Now go head and add HEllo word before Item 1
-// var container = document.querySelector('header .list-group');
-// var h1 = document.querySelector('header li');
-// console.log(newDiv);
+var container = document.querySelector('div .list-group'); //first select which group div(parent class) ,2nd select class name 
+var h1 = document.querySelector('div li');  //1st element same as before 2nd element before which u r adding
+console.log(newDiv);
 
-// container.insertBefore(newDiv,li);
+container.insertBefore(newDiv,h1);
 
 
 
