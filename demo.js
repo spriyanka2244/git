@@ -141,13 +141,17 @@
 
 
 // previoussibling
-var itemList=document.querySelector('#items');
-console.log(itemList.previousSibling);
-
-
+// var itemList=document.querySelector('#items');
+// console.log(itemList.previousSibling);
 
 
 // previouselementsibling
+var itemList=document.querySelector('#items');
+console.log(itemList.previousElementSibling);
+itemList.previousElementSibling.style.color='green';
+
+
+
 // createelement
 // setAttribute
 // createtextnode
