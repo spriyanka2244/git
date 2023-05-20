@@ -174,6 +174,24 @@
 
 // appendchild
 
+// var newDiv =document.createElement('div');
+
+// newDiv.className='hello';
+// newDiv.id='hello1';
+// newDiv.setAttribute('title','hello div');
+
+// var newDivText = document.createTextNode('Hello world');
+// newDiv.appendChild(newDivText);
+
+// console.log(newDiv);
+
+
+
+
+// createchild doubt
+
+
+//Now go head and add HEllO word before Item Lister
 var newDiv =document.createElement('div');
 
 newDiv.className='hello';
@@ -183,34 +201,26 @@ newDiv.setAttribute('title','hello div');
 var newDivText = document.createTextNode('Hello world');
 newDiv.appendChild(newDivText);
 
+var container = document.querySelector('header .container');
+var h1 = document.querySelector('header h1');
+
 console.log(newDiv);
 
+container.insertBefore(newDiv,h1);
 
 
 
-// createchild
 
 
-//createElement
+//Now go head and add HEllo word before Item 1
+// var container = document.querySelector('header .list-group');
+// var h1 = document.querySelector('header li');
+// console.log(newDiv);
 
-//create  a div
+// container.insertBefore(newDiv,li);
 
-// var newDiv =document.createElement('div');
 
-//class name
-// newDiv.className='hello';
 
-// //add id
-// newDiv.id='hello';
-
-// //add attr
-// newDiv.setAttribute('title','hello div');
-
-// //create text node
-// var newDivText = document.createTextNode('Hello world');
-
-// //add text to div
-// newDiv.appendChild(newDivText);
 
 // var container=document.querySelector('header.container');
 // var h1=document.querySelector('header h1');
