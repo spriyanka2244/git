@@ -107,10 +107,10 @@
 
 
 //parentElement
-//var itemList=document.querySelector('#items');
+// var itemList=document.querySelector('#items');
 // console.log(itemList.parent);
 // itemList.parentElement.style.backgroundColor='blue';
-// console.log(itemList.parentElement.parentElement.parentElement);
+// console.log(itemList.parentElement);
 
 // lastelementchild
 //var itemList=document.querySelector('#items');
@@ -192,18 +192,29 @@
 
 
 //Now go head and add HEllO word before Item Lister
-var newDiv =document.createElement('div');
+// var newDiv =document.createElement('div');
 
-newDiv.className='hello';
-newDiv.id='hello1';
-newDiv.setAttribute('title','hello div');
+// newDiv.className='hello';
+// newDiv.id='hello1';
+// newDiv.setAttribute('title','hello div');
 
-var newDivText = document.createTextNode('Hello world');
-newDiv.appendChild(newDivText);
+// var newDivText = document.createTextNode('Hello world');
+// newDiv.appendChild(newDivText);
 
-// var container = document.querySelector('header .container');
-// var h1 = document.querySelector('header h1');
+// // var container = document.querySelector('header .container');
+// // var h1 = document.querySelector('header h1');
 
+// // console.log(newDiv);
+
+// // container.insertBefore(newDiv,h1);
+
+
+
+
+
+// //Now go head and add HEllo word before Item 1
+// var container = document.querySelector('div .list-group'); //first select which group div(parent class) ,2nd select class name 
+// var h1 = document.querySelector('div li');  //1st element same as before 2nd element before which u r adding
 // console.log(newDiv);
 
 // container.insertBefore(newDiv,h1);
@@ -211,20 +222,9 @@ newDiv.appendChild(newDivText);
 
 
 
+// // var container=document.querySelector('header.container');
+// // var h1=document.querySelector('header h1');
 
-//Now go head and add HEllo word before Item 1
-var container = document.querySelector('div .list-group'); //first select which group div(parent class) ,2nd select class name 
-var h1 = document.querySelector('div li');  //1st element same as before 2nd element before which u r adding
-console.log(newDiv);
+// // //console.log(newDivText)
 
-container.insertBefore(newDiv,h1);
-
-
-
-
-// var container=document.querySelector('header.container');
-// var h1=document.querySelector('header h1');
-
-// //console.log(newDivText)
-
-// container.insertBefore(newDiv,h1);
+// // container.insertBefore(newDiv,h1);
