@@ -146,60 +146,28 @@
 
 
 // previouselementsibling
-var itemList=document.querySelector('#items');
-console.log(itemList.previousElementSibling);
-itemList.previousElementSibling.style.color='green';
+// var itemList=document.querySelector('#items');
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.style.color='green';
+
+
+// createElement
+//create a div
+
+var newDiv = document.createElement('div');
+console.log(newDiv)
 
 
 
-// createelement
+
+
+
+
 // setAttribute
 // createtextnode
 // appendchild
 // createchild
 
-
-// var itemList =document.querySelector('#items');
-// //parent element
-//console.log(itemList.parent);
-//itemList.parentElement.style.backgroundColor='green';
-//console.log(itemList.parentElement.parentElement.parentElement);
-
-//childNodes
-
-//console.log(itemList.childNodes);
-
-
-// console.log(itemList.children);
-// console.log(itemList.children[1]);
-// itemList.children[1].style.backgroundColor='yellow';
-
-
-//FirstChild
-// console.log(itemList.firstChild);
-// //firstElement Child
-// console.log(itemList.firstElementChild);
-// itemList.firstElementChild.textContent="Hello 1";
-
-//LastChild
-// console.log(itemList.lastChild);
-// //lastElement Child
-// console.log(itemList.lastElementChild);
-// itemList.lastElementChild.textContent="Hello last";
-
-
-//nextsibling
-//console.log(itemList.nextSibling);
-
-//nextElementSibling
-//console.log(itemList.nextElementSibling);
-
-//previoussibling
-//console.log(itemList.previousSibling);
-
-//previousElementsibling
-// console.log(itemList.previousElementSibling);
-// itemList.previousElementSibling.style.color='green';
 
 //createElement
 
