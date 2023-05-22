@@ -165,12 +165,14 @@ function removeItem(e){
 function filterItems(e){
   // convert text to lowercase
   var text = e.target.value.toLowerCase();
-  // Get lis
+  // Get list
   var items = itemList.getElementsByTagName('li');
   // Convert to an array
-  Array.from(items).forEach(function(item){
+  Array.from(items).forEach(function(item,item2){
     var itemName = item.firstChild.textContent;
-    if(itemName.toLowerCase().indexOf(text) != -1){
+    var item2 = item.childNodes[1].textContent;
+
+    if(itemName.toLowerCase().indexOf(text) != -1  || item2.toLowerCase().indexOf(text) != -1){
       item.style.display = 'block';
     } else {
       item.style.display = 'none';
