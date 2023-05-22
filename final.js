@@ -138,14 +138,20 @@ function addItem(e){
   // Create del button element
   var deleteBtn = document.createElement('button');
 
+  var EditBtn = document.createElement('button');
+
   // Add classes to del button
-  deleteBtn.className = 'btn btn-danger btn-sm float-right delete';
+  EditBtn.className = 'btn btn-danger btn-sm float-right delete';
+  EditBtn.className = 'btn btn-dark btn-sm float-right delete';
 
   // Append text node
   deleteBtn.appendChild(document.createTextNode('X'));
+  EditBtn.appendChild(document.createTextNode('EDIT'));
+
 
   // Append button to li
   li.appendChild(deleteBtn);
+  li.appendChild(EditBtn);
 
   // Append li to list
   itemList.appendChild(li);
