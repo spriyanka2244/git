@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form onsubmit="saveToLocal">
+        <form onsubmit="saveToLocalStorage(event)">
             <label>Name</label>
             <input type="text" name="username" required/>
             <label>emailId</label>
@@ -19,6 +19,12 @@
                 localStorage.setItem('name',name);
                 localStorage.setItem('email',email);
                 localStorage.setItem('phonenumber',phonenumber);
+                const obj ={
+                    name,
+                    email,
+                    phonenumber
+                }
+                localStorage.setItem('userDetails',JSON.stringify(obj))
             }
         </script>
     </body>
