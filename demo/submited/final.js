@@ -139,38 +139,29 @@ function addItem(e){
   // Create del button element
   var deleteBtn = document.createElement('button');
 
-  
-
   // Add classes to del button
   deleteBtn.className = 'btn btn-danger btn-sm float-right delete';
 
   // Append text node
   deleteBtn.appendChild(document.createTextNode('X'));
-  
-
-
   // Append button to li
   li.appendChild(deleteBtn);
 
   // Append li to list
   itemList.appendChild(li);
 
-//edit button
-var li1 = document.createElement('li');
-// Add class
-li1.className = 'list-group-item';
-var EditBtn = document.createElement('button');
-EditBtn.className = 'btn btn-dark btn-sm ';
+  //create edit button
+  var EditBtn = document.createElement('button');
 
-// Append text node
-EditBtn.appendChild(document.createTextNode('Edit'));
+  // Add classes to edit button
+  EditBtn.className = 'btn btn-dark btn-sm float-right Edit';
 
-li1.appendChild(EditBtn);
+  EditBtn.appendChild(document.createTextNode('Edit'));
+  // Append button to li
+  li.appendChild(EditBtn);
 
-// Append li to list
-
-itemList1.nextSibling.appendChild(li1);
-
+  // Append li to list
+  itemList.appendChild(li);
 
 }
 
