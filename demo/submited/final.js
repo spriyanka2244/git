@@ -110,6 +110,7 @@
 var form = document.getElementById('addForm');
 var itemList = document.getElementById('items');
 var filter = document.getElementById('filter');
+var itemList1=document.getElementsByClassName('list-group-item"');
 
 // Form submit event
 form.addEventListener('submit', addItem);
@@ -124,7 +125,7 @@ function addItem(e){
 
   // Get input value
   var newItem = document.getElementById('item').value;
-  var newItem2 = document.getElementById('item2').value;
+
 
 
   // Create new li element
@@ -133,29 +134,53 @@ function addItem(e){
   li.className = 'list-group-item';
   // Add text node with input value
   li.appendChild(document.createTextNode(newItem));
-  li.appendChild(document.createTextNode(newItem2));
+
 
   // Create del button element
   var deleteBtn = document.createElement('button');
 
-  var EditBtn = document.createElement('button');
+  
 
   // Add classes to del button
-  EditBtn.className = 'btn btn-danger btn-sm float-right delete';
-  EditBtn.className = 'btn btn-dark btn-sm float-right delete';
+  deleteBtn.className = 'btn btn-danger btn-sm float-right delete';
 
   // Append text node
   deleteBtn.appendChild(document.createTextNode('X'));
-  EditBtn.appendChild(document.createTextNode('EDIT'));
+  
 
 
   // Append button to li
   li.appendChild(deleteBtn);
-  li.appendChild(EditBtn);
 
   // Append li to list
   itemList.appendChild(li);
+
+//edit button
+var li1 = document.createElement('li');
+// Add class
+li1.className = 'list-group-item';
+var EditBtn = document.createElement('button');
+EditBtn.className = 'btn btn-dark btn-sm ';
+
+// Append text node
+EditBtn.appendChild(document.createTextNode('Edit'));
+
+li1.appendChild(EditBtn);
+
+// Append li to list
+
+itemList1.nextSibling.appendChild(li1);
+
+
 }
+
+
+
+  
+
+
+
+
 
 // Remove item
 function removeItem(e){
