@@ -34,6 +34,7 @@
                 //network call
                 axios.post("https://crudcrud.com/api/a12e9425540e4de59939cd4f10a2e926/appointmentData",obj)
                 .then((response) => {
+                    showUserOnScreen(response.data)
                     console.log(response)
                 })
                 .catch((err) => {
