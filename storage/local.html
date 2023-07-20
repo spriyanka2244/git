@@ -30,8 +30,18 @@
                     email,
                     phonenumber
                 }
-                localStorage.setItem('userDetails',JSON.stringify(obj))
-                showUserOnScreen(obj)
+                
+                //network call
+                axios.post("https://crudcrud.com/api/a12e9425540e4de59939cd4f10a2e926/appointmentData",obj)
+                .then((response) => {
+                    console.log(response)
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
+                
+                //localStorage.setItem('userDetails',JSON.stringify(obj))
+                //showUserOnScreen(obj)
 
                  }
                  function showUserOnScreen(obj){
