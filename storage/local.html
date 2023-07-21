@@ -48,9 +48,15 @@
                  }
                 //save in cloud
                  window.addEventListener("DOMContentLoaded" ,() =>{
-                axios.get("https://crudcrud.com/api/a12e9425540e4de59939cd4f10a2e926/appointmentData")
-                     .then(respone =>{
-                        console.log(respone)
+                 ///network call
+                    axios.get("https://crudcrud.com/api/a12e9425540e4de59939cd4f10a2e926/appointmentData")
+                     .then(response =>{
+                        console.log(response)
+                        //show in screen
+                        for(var i=0;i<response.data.length;i++){
+                            showUserOnScreen(response.data[i])
+                        }
+        
                      })
                     .catch((error) =>{
                         console.log(error)
